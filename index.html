@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="public/web-icon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Menu Drink for Luxury Hotels & Hospitality Brands | Bali & Beyond</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+<body class="bg-gray-50 text-gray-900 font-sans">
+
+    <!-- Header -->
+    <header class="text-center py-6 bg-white shadow px-4">
+        <h1 class="text-3xl font-bold text-center md:text-left md:max-w-[250px]">AN INVITATION TO THE HIDDEN</h1>
+    </header>
+
+    <section aria-label="Hero image">
+        <img src="https://hips.hearstapps.com/hmg-prod/images/cauliflower-soup-lead-66ede3814328d.jpg?crop=1xw:1xh;center,top&resize=1200:*"
+            alt="Hero banner" class="w-full h-[300px] object-cover">
+    </section>
+
+    <section class="w-full px-4 py-8">
+        <div class="flex flex-col md:flex-row bg-white rounded-xl shadow">
+            <div class="flex flex-col md:flex-row w-full max-w-[400px]">
+                <div class="py-6 flex-1 pl-6">
+                    <h2 class="text-sm font-semibold mb-2">CURATED SELECTION OF</h2>
+                    <p class="font-bold text-xl">FINE SPIRITS</p>
+                </div>
+                <div class="py-6 flex-1 pl-6">
+                    <h2 class="text-sm font-semibold mb-2">A HIDDEN GEM</h2>
+                    <p class="font-bold text-xl">7 NIGHTS / WEEK</p>
+                </div>
+            </div>
+            <div class="p-6 flex-1">
+                <p class="text-gray-600 text-sm">Step into a place where time slows down and the night feels endless.
+                    Our
+                    speakeasy offers a unique intimate athmosphere, perfect for thoese seeking something more than the
+                    usual. Come
+                    for the experience stay for the vibe.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <main class="w-full px-4 py-4">
+        <section>
+            <div class="m-auto text-center max-w-[550px]">
+                <h2 class="text-2xl font-bold">BEHIND</h2>
+                <h3 class="font-bold">Closed Doors</h3>
+                <p class="text-gray-600 text-sm mb-6">Our speakeasy offers an atmosphere that's both sleek and relaxed,
+                    perfect
+                    for those who appreciate the finer things in life. Whether you're here for a quiet drink or to
+                    linger into the
+                    night, every moment feels exclusive.</p>
+            </div>
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+
+                <!-- Menu Item -->
+                <figure class="cursor-pointer relative overflow-hidden shadow"
+                    onclick="openModal('https://images.pexels.com/photos/338713/pexels-photo-338713.jpeg')">
+                    <img src="https://images.pexels.com/photos/338713/pexels-photo-338713.jpeg" alt="Menu-1"
+                        class="w-full h-128 object-cover hover:scale-110 transition-transform duration-300">
+                </figure>
+
+                <figure class="cursor-pointer relative overflow-hidden shadow"
+                    onclick="openModal('https://www.primaverakitchen.com/wp-content/uploads/2024/05/Caipirinha-Brazilian-Drink-6.jpg')">
+                    <img src="https://www.primaverakitchen.com/wp-content/uploads/2024/05/Caipirinha-Brazilian-Drink-6.jpg"
+                        alt="Menu-2"
+                        class="w-full h-128 object-cover hover:scale-110 transition-transform duration-300">
+                </figure>
+
+                <figure class="cursor-pointer relative overflow-hidden shadow"
+                    onclick="openModal('https://www.cmq.edu.mx/images/blog/ajax-articles/summer-drink.jpg')">
+                    <img src="https://www.cmq.edu.mx/images/blog/ajax-articles/summer-drink.jpg" alt="Menu-3"
+                        class="w-full h-128 object-cover hover:scale-110 transition-transform duration-300">
+                </figure>
+
+                <figure class="cursor-pointer relative overflow-hidden shadow"
+                    onclick="openModal('https://punchdrink.com/wp-content/uploads/2014/06/Article-Bicicletta-Italian-Aperitivo-Campari-Sprtiz-Cocktail-Recipe.jpg?resize=768,1056')">
+                    <img src="https://punchdrink.com/wp-content/uploads/2014/06/Article-Bicicletta-Italian-Aperitivo-Campari-Sprtiz-Cocktail-Recipe.jpg?resize=768,1056"
+                        alt="Menu-4"
+                        class="w-full h-128 object-cover hover:scale-110 transition-transform duration-300">
+                </figure>
+
+                <figure class="cursor-pointer relative overflow-hidden shadow"
+                    onclick="openModal('https://punchdrink.com/wp-content/uploads/2014/08/Article2-Modern-Classic-Cocktail-Siesta-Recipe.jpg?resize=768,1056')">
+                    <img src="https://punchdrink.com/wp-content/uploads/2014/08/Article2-Modern-Classic-Cocktail-Siesta-Recipe.jpg?resize=768,1056"
+                        alt="Menu-5"
+                        class="w-full h-128 object-cover hover:scale-110 transition-transform duration-300">
+                </figure>
+
+                <figure class="cursor-pointer relative overflow-hidden shadow"
+                    onclick="openModal('https://punchdrink.com/wp-content/uploads/2023/10/Article-Laura-Maddox-Cocktail-Recipe-Best-New-Bartenders-2023.jpg?resize=768,1056')">
+                    <img src="https://punchdrink.com/wp-content/uploads/2023/10/Article-Laura-Maddox-Cocktail-Recipe-Best-New-Bartenders-2023.jpg?resize=768,1056"
+                        alt="Menu-6"
+                        class="w-full h-128 object-cover hover:scale-110 transition-transform duration-300">
+                </figure>
+
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="text-center py-6 bg-white shadow mt-8">
+        <p class="text-sm text-gray-500">&copy; 2025 Homepage.</p>
+    </footer>
+
+    <!-- Modal -->
+    <div id="imageModal" class="fixed inset-0 bg-black/70 hidden items-center justify-center z-50">
+        <div class="relative">
+            <div class="max-w-3xl w-full px-4">
+                <img id="modalImage" src="" alt="Full Menu Item"
+                    class="w-full h-auto rounded-xl shadow-lg max-h-[90vh] md:max-h-[80vh] object-contain mx-auto">
+            </div>
+            <button onclick="closeModal()"
+                class="cursor-pointer absolute -top-[30px] -right-[-20px] text-white text-2xl">&times;</button>
+        </div>
+    </div>
+</body>
+
+</html>
+
+<script src="index.js"></script>
